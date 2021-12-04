@@ -1,0 +1,139 @@
+.header {
+    background-color: #000c50;
+    @media (min-width: 600px) {
+        background-color: #000c50;
+        background-size: cover;
+        padding: 0;
+    }
+    .madhur__menu {
+        background: black;
+        animation-duration: 2s;
+        animation-timing-function: ease-in-out;
+        animation-delay: 0s;
+        animation-name: fadeIn;
+        @-webkit-keyframes fadeIn {
+            from {
+              opacity: 0;
+            }
+          
+            to {
+              opacity: 1;
+            }
+          }
+          @keyframes fadeIn {
+            from {
+              opacity: 0;
+            }
+          
+            to {
+              opacity: 1;
+            }
+          }
+          .fadeIn {
+              -webkit-animation-name: fadeIn;
+              animation-name: fadeIn;
+          }
+
+    }
+    
+}
+
+#heroImg {
+    // height: 812px;
+    width: 100%;
+    // margin: rem-calc(-100) auto 0 auto;
+    display: flex;
+    justify-content: center;
+    @media (min-width: 600px) {
+        justify-content: left;
+        background-image: url(../images/mathur-home-background-2.svg);
+        background-size: cover;
+    }
+    .heroTxtWrap {
+        display: flex;
+        flex-direction: column;
+        margin: rem-calc(100) 0;
+        align-items: center;
+        width: 80%;
+        color: white;
+        text-align: center;
+        animation-duration: 2s;
+        animation-timing-function: ease-in-out;
+        animation-delay: 0s;
+        animation-name: fadeInRight;
+        @media (min-width: 600px) {
+            text-align: left;
+            margin-left: 10%;
+            align-items: flex-start;
+        }
+        .heroHeading {
+            margin-top: 6rem;
+            font-size: rem-calc(45);
+            padding-bottom: rem-calc(50);
+        }
+        .heroSubHeading {
+            font-size: rem-calc(40);
+            line-height: rem-calc(47);
+            padding-bottom: rem-calc(80);
+        }
+    
+          
+    }
+    .my-img {
+        width: 50%;
+        align-items: center;
+        margin-top: 2%;
+        transform: translatey(0px);
+            animation: animation 6s ease-in-out infinite;
+        img {
+            width: 500px;
+        }
+        @keyframes animation {
+            0% {
+                box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+                transform: translatey(0px);
+            }
+            50% {
+                box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+                transform: translatey(-20px);
+            }
+            100% {
+                box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+                transform: translatey(0px);
+            }
+        }
+        
+       
+    }
+}
+@-webkit-keyframes fadeInRight {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(100%, 0, 0);
+      transform: translate3d(100%, 0, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none;
+    }
+  }
+  @keyframes fadeInRight {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(100%, 0, 0);
+      transform: translate3d(100%, 0, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none;
+    }
+  }
+  
+  .fadeInRight {
+    -webkit-animation-name: fadeInRight;
+    animation-name: fadeInRight;
+  }

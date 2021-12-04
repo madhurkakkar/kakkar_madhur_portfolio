@@ -1,0 +1,57 @@
+@media only screen and (max-width: 500px) {
+    header ul li a {
+      padding: 0 10px;
+      font-size: 14px;
+  }
+  .heroTxtWrap {
+      width: 100%;
+  }
+  .my-img {
+      margin-bottom: 16px;
+      width: 80% !important;
+      margin-left: -202px;
+  }
+  .heroTxtWrap {
+      padding: 0;
+  }
+  section#heroImg {
+      flex-wrap: wrap;
+  }
+  div#mainContent {
+      background: #000C50;
+  }
+  .heroTxtWrap {
+      margin: 0 !important;
+  }
+  
+  h2.heroHeading {
+      padding: 0;
+      margin: 15px;
+  }
+  
+  .my-img img {
+      margin-top: 15px;
+  }
+    .footer-row,
+    .footer-links{
+        flex-wrap: wrap;
+
+    }
+
+    .footer-links li {
+        width: 100%;
+        margin: 8px 0;
+    }
+
+    .footer-links li a{
+        padding: 0;
+    }
+
+    .footer-links{
+        margin-bottom: 16px;
+    }
+
+    .copy{
+        line-height: 1.5;
+    }
+  }  

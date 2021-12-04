@@ -1,0 +1,159 @@
+#aboutWrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px auto;
+    #madhur {
+        margin: rem-calc(40) rem-calc(10);
+        display: flex;
+        flex-direction: column;
+        border: 4px solid $teal;
+        padding: rem-calc(20) 0;
+        @media (min-width: 750px) {
+            flex-direction: row;
+            max-width: 1300px;
+        }
+        animation-duration: 2s;
+        animation-timing-function: ease-in-out;
+        animation-delay: 0s;
+        animation-name: fadeInUp;
+        .profilePic {
+            margin-top: rem-calc(-50);
+            align-self: center;
+            margin-bottom: rem-calc(20);
+            width: 260px;
+
+            @media (min-width: 750px) {
+                margin: 0 rem-calc(40);
+            }
+        }   
+        @-webkit-keyframes fadeInUp {
+            from {
+              opacity: 0;
+              -webkit-transform: translate3d(0, 100%, 0);
+              transform: translate3d(0, 100%, 0);
+            }
+          
+            to {
+              opacity: 1;
+              -webkit-transform: none;
+              transform: none;
+            }
+          }
+          @keyframes fadeInUp {
+            from {
+              opacity: 0;
+              -webkit-transform: translate3d(0, 100%, 0);
+              transform: translate3d(0, 100%, 0);
+            }
+          
+            to {
+              opacity: 1;
+              -webkit-transform: none;
+              transform: none;
+            }
+          }
+          
+          .fadeInUp {
+            -webkit-animation-name: fadeInUp;
+            animation-name: fadeInUp;
+          }
+    }
+}
+
+
+.about {
+    padding: 60px 0;
+    width: 80%;
+    margin: 0 auto;
+    .about-row {
+        display: flex;
+        align-items: center;
+        .my-aboutimg {
+            width: 50%;
+            flex-shrink: 0;
+            border: 6px solid #3f51b5;
+            border-radius: 10px 24px 10px 24px;
+            img:hover{
+                    zoom: 105%;
+                    width: 99.5%;
+                    border: 1px solid;
+                    box-shadow: 0 -11px 45px rgba(0, 0, 0, 0.6);
+                    border: 0px;
+                }
+            }
+            
+        }
+        .my-content{
+            padding: 24px;
+            font-size: 22px;
+        }
+        
+    }
+
+
+.field-work{
+    background-color: #fafafa;
+    padding: 60px 0;
+    width: 80%;
+    margin: 0 auto;
+    .field-row {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .site-box-img{
+            flex-shrink: 0;
+            width: 50%;
+            border: 6px solid #3f51b5;
+            border-radius: 10px 24px 10px 24px;
+            img:hover{
+                zoom: 105%;
+                width: 99.5%;
+                border: 1px solid;
+                box-shadow: 0 -11px 45px rgba(0, 0, 0, 0.6);
+                border: 0px;
+            }
+        }
+
+        .site-box-content{
+            padding: 24px;
+            font-size: 22px;
+        }
+    }
+}
+@media(max-width:767px){
+
+    .about-row,
+    .field-row,
+    .technology-row,
+    .footer-row,
+    .footer-links{
+        flex-wrap: wrap;
+
+    }
+    .my-aboutimg,
+    .site-box-content{
+        width: 100%;
+        margin-bottom:  16px;
+    }
+
+    .my-content,
+    .site-box-content{
+        padding: 0;
+    }
+
+
+    .site-box-img{
+        width: 100% ;
+    }
+
+    .technology-list{
+        padding: 0;
+        margin-bottom: 16px;
+    }
+
+  
+}
+
+
+
