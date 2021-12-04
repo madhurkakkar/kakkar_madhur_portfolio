@@ -16,11 +16,14 @@ Portfolio Page This page will show you all my works from motion and graphic desi
 Contact Page There are the contact form where all potential employers can send me an email with the suggestion for a job or ask a question.
 
 # Usage
-HTML
-SASS
-VUE
-JS
-PHP
+* HTML
+* CSS
+* SASS
+* JS
+* Vue
+* PHP
+* AJAX
+* MySQL
 
 # Intallation
 This is a 4-pages dynamic website that has a responsive design. The portfolio has an SQL database and all information in the portfolio section is retrieving from the database.
