@@ -1,5 +1,5 @@
 # Madhur Kakkar Portfolio Website
-Welcome! This is my portfolio website which describes some information about me and showing all my works which I've created for 2 years. Don't brake, visit the website! http://viktoriiatyshchuk.com
+Welcome! This is my portfolio website which describes some information about me and showing all my works which I've created for 2 years. Don't brake, visit the website!
 
 # Description
 This is my portfolio website which present you all my projects and skillset as a motion and as a graphic designer to potential clients and employers.
